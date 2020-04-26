@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/todo/todo",
+    "pages/todo/todoinfo/todoinfo",
+    "pages/health/health",
+    "pages/defect/defect",
+    "pages/defect/defectList",
+    "pages/selecter/selecter",
+    "pages/selecter/selectAsset",
+    "pages/selecter/selectTeam"
+  ],
+  "subPackages": [],
+  "window": {
+    "titleBarColor": "#ff9800",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "textColor": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/main/main",
+        "name": "首页",
+        "icon": "static/img/home.png",
+        "activeIcon": "static/img/homeHL.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "name": "待办",
+        "icon": "static/img/todo.png",
+        "activeIcon": "static/img/seltodo.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "static/img/user.png",
+        "activeIcon": "static/img/userHL.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

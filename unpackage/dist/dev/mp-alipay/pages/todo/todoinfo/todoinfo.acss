@@ -1,0 +1,24 @@
+
+#buttons {
+	width: 660rpx;
+	height: 84rpx;
+	line-height: 84rpx;
+	
+	margin-top: 10rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+button {
+	height: 84rpx;
+	font-size: 32rpx;
+}
+.button {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+	height: 84rpx;
+}
+
+

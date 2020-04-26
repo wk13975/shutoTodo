@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['_onClick',['$event']]]]]}}" class="uni-icons data-v-7d2bffc4" style="{{'color:'+(color)+';'+('font-size:'+(size+'px')+';')}}" onTap="__e">{{icons[type]}}</text>

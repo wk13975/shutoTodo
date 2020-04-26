@@ -1,0 +1,36 @@
+
+.text-top {
+	color: #007AFF;
+	font-size: 30;
+	font-weight: 600;
+	width: 680rpx;
+	padding: 10rpx 20rpx 10rpx 20rpx;
+	margin-left: -20rpx;
+	position: relative;
+	background-color: #fdfdfd;
+	border-bottom: 1px #f5f5f5 solid
+}
+.uni-flex {
+	width: 690rpx;
+}
+.uni-media-list {
+	padding: 10rpx 30rpx 10rpx;
+	margin-bottom: 10rpx;
+	background-color: #FFFFFF;
+}
+.loading-more {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.loading-more-text {
+	font-size: 28rpx;
+	color: #999;
+}
+

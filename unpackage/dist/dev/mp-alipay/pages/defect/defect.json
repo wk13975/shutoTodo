@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "缺陷",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "w-picker": "/components/w-picker/w-picker",
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "my-images": "/components/m-images",
+    "my-selecter": "/components/mySelecter"
+  }
+}

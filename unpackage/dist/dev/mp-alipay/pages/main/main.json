@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "首页",
+  "usingComponents": {
+    "cmd-notice-bar": "/components/cmd-notice-bar/cmd-notice-bar",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar",
+    "zy-grid": "/components/zy-grid/zy-grid"
+  }
+}

@@ -1,0 +1,109 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/todo/todo",
+			"style": {
+				"navigationBarTitleText": "待办",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"color": "#ff7c25",
+								"fontSize": "18",
+								"text": "🔃" //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							}
+						]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/todo/todoinfo/todoinfo",
+			"style": {
+				"navigationBarTitleText": "待办信息"
+			}
+		}, {
+			"path": "pages/health/health",
+			"style": {
+				"navigationBarTitleText": "员工健康"
+			}
+		}, {
+			"path": "pages/defect/defect",
+			"style": {
+				"navigationBarTitleText": "缺陷"
+			}
+		}, {
+			"path": "pages/defect/defectList",
+			"style": {
+				"navigationBarTitleText": "缺陷"
+			}
+		}, {
+			"path": "pages/selecter/selecter",
+			"style": {
+				"navigationBarTitleText": "位置选择"
+			}
+		}, {
+			"path": "pages/selecter/selectAsset",
+			"style": {
+				"navigationBarTitleText": "设备选择"
+			}
+		}, {
+			"path": "pages/selecter/selectTeam",
+			"style": {
+				"navigationBarTitleText": "班组选择"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/todo/todo",
+			"text": "待办",
+			"iconPath": "static/img/todo.png",
+			"selectedIconPath": "static/img/seltodo.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#ff9800",
+		"backgroundColor": "#fbf9fe"
+	}
+}

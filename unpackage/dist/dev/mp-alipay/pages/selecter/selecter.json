@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "位置选择",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

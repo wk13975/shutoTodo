@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['show',['$event']]]],['tap',[['show',['$event']]]]]}}" onTap="__e"><input type="text" name="{{name}}" disabled value="{{value}}"/></view>
